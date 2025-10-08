@@ -1,0 +1,242 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.WholeNavbar {
+  height: 16%;
+  width: 100%;
+  /* background-color: aqua;  */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+
+.searchBar {
+  width: 47%;
+  height: 66%;
+  border: 2px solid #bce3c9;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 10px;
+  border-radius: 4px;
+  /* background-color: yellow; */
+}
+.searchBar span {
+  width: 1px;
+  height: 20px;
+  background-color: black;
+}
+
+.searchBar select {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+}
+.searchBar select,
+input:focus {
+  border: none;
+  outline: none;
+}
+.searchBar input {
+  width: 70%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+.section {
+  width: 30%;
+  height: 100%;
+  /* font-size: 10px; */
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: orange; */
+  /* justify-content: space-between; */
+}
+
+.icons {
+  /* width:23%; */
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.nextwholenavbar {
+  height: 40%;
+  width: 70%;
+  background-color: black;
+}
+
+.box {
+  height: 20%;
+  width: 100%;
+  color: blue;
+}
+.searchBar ::-ms-browse {
+  height: 2%;
+  width: 20%;
+  background-color: white;
+}
+
+.hero {
+  height: 10%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0px 20px;
+}
+.button {
+  height: 50%;
+  width: 20%;
+  background-color: #29a56c;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+}
+.headphone {
+  /* display: flex column;
+    justify-content: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+}
+.button select {
+  border: none;
+  outline: none;
+  background-color: #29a56c;
+  color: white;
+  font-size: 20px;
+}
+
+/* .icons1{
+    height: 100%;
+    width: 20%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+} */
+.headphone h1 {
+  color: #29a56c;
+}
+
+.ri-headphone-line {
+  font-size: 30px;
+}
+
+.navbar-class {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.navbar-class li {
+  list-style: none;
+}
+
+.helpcenter {
+  line-height: 25px;
+}
+
+.parentpicture {
+  height: 90%;
+  width: 100%;
+  /* display: flex;
+  align-items: center; */
+  padding: 0px 20px;
+}
+
+.picture {
+  height: 80%;
+  width: 100%;
+  background-image: url("./assets/heroimg.png"); 
+  background-size: 100% 100%; 
+  border-radius: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.amazing h1{
+  height: 100%;
+  width: 100%;
+  font-size: 72px;
+   /* padding-left: 50px;   */
+  padding-top: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+  /* font-family: Quicksand, sans-serif; 
+  align-items: center;
+  justify-content: center;
+  padding: 30px; */
+}
+
+ .save {
+  font-size: larger;
+  display: flex;
+  height: 20%;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  opacity: 0.35;
+}   
+
+/* .box{
+  width: 100;
+  height: 80;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+.featured-categories{
+  width: 30%;
+  height: 20%;
+  text-align: center;
+  margin: 30%;
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+
+
